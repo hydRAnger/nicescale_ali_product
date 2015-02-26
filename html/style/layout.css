@@ -1,0 +1,32 @@
+.row {
+  width: 100%;
+  max-width: 759px;
+}
+
+.col-6 {
+  width: 35%;
+  padding: 0 5px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.bubble {
+  height: 100%;
+  display: table;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 20px 25px;
+  min-height: 110px;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+
+  .content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.customer-icon {
+  height: 35px;
+  margin-bottom: 5px;
+}
